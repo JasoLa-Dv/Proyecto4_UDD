@@ -1,9 +1,14 @@
 import React from 'react';
+import Hero from '../components/Hero';
+import Footer  from '../components/Footer';
+import Resena from '../components/Resena'
 
 const Home = () => {
     return (
         <div>
-           Hola
+           <Hero />
+            <Resena />
+            <Footer />
         </div>
     )
 } 
