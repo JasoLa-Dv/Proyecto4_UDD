@@ -1,3 +1,4 @@
+import React from "react"
 import { db } from "../config/firebase"
 import { getDocs, collection } from 'firebase/firestore'
 import { useEffect, useState } from "react"
@@ -34,7 +35,7 @@ const Mensajes = () => {
 
     return(
         <div>
-                <div className="container mt-3 mb-3">
+                <div className="container mt-3 mb-3 mensaje">
                      <Toaster />
 
                             <h1 className="text-center">Tareas</h1>

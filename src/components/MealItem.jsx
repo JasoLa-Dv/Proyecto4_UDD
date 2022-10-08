@@ -8,7 +8,7 @@ const MealItem=({data})=>{
             {
                 (!data) ?"Not Found": data.map(item=>{
                     return(
-                    <div className="card" key={item.idMeal} >
+                    <div className="container card" key={item.idMeal} >
                         <img src={item.strMealThumb} alt="" />
                         <h3>{item.strMeal}</h3>
                     </div>

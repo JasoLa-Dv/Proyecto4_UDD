@@ -22,20 +22,20 @@ const Meal = () => {
     }
 return (
     <>
-        <div className="main">
-            
-            
-            <div className="contenedor">
+        <div>
+                 <div className="contenedor">
                 {
                     show ?<MealItem data={item} /> :"Not Found"
                 
                 }
-            </div>
-            <div className="indexContainer">
-                 <ReacipeIndex alphaIndex={(alpha)=>setIndex(alpha)}/>
-            </div>
-            
-        </div>
+                </div>
+                
+                <div className="indexContainer">
+                    <ReacipeIndex alphaIndex={(alpha)=>setIndex(alpha)}/>
+                </div>
+       
+                </div>
+               
     </>
 )
 }

@@ -8,9 +8,13 @@ const ReacipeIndex = ({alphaIndex}) => {
             {   
                 alpha.map(item => {
                     return(
-                    <div className="numBox" key={num++} onClick={()=>alphaIndex(item)}>
-                        <h3>{item}</h3>
-                    </div>)
+                        <div className="main" >
+                            <div className="numBox" key={num++} onClick={()=>alphaIndex(item)}>
+                            <h3>{item}</h3>
+                            </div>
+                        </div>
+                    )
+                   
                 })
             }
         </>
